@@ -46,6 +46,7 @@ export function ApprovalNodeForm({ nodeId }) {
           onChange={(e) => handleChange('autoApproveThreshold', Number(e.target.value))} 
         />
       </div>
+      
 
       <div className="flex justify-end gap-2 mt-4 pt-4 border-t border-border-color">
         <Button variant="secondary" onClick={reset}>Reset</Button>
